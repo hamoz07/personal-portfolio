@@ -80,7 +80,7 @@ const Main = () => {
             react & Mui ({filteredreact.length})
           </button>
         </section>
-        <section className="right-side">
+        <section className={`right-side ${showAll ? "overcontainer" : ""}`}>
           {displayedProjects.map((repo, i) => (
             <Card
               key={i}
@@ -90,6 +90,7 @@ const Main = () => {
               vercel={repo.website}
               img={repo.path}
               desc={repo.description}
+              tech={repo.technologies}
             />
           ))}
         </section>
