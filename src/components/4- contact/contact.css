@@ -1,0 +1,165 @@
+section.contact .headline {
+    margin-bottom: 20px;
+}
+
+section.contact .headline h2 {
+    color: var(--title);
+    font-size: 2rem;
+}
+
+section.contact .headline h2 .icon-mail-envelope-closed {
+    font-size: 1.9rem;
+    margin-right: .4rem;
+    color: var(--subtitle);
+}
+
+section.contact .headline p {
+    color: var(--subtitle);
+    line-height: 1.25rem;
+    letter-spacing: .5px;
+    margin-top: 5px;
+}
+
+section.contact .section-data {
+    gap: 150px;
+}
+
+section.contact .section-data form {
+    flex-direction: column;
+    align-items: start !important;
+    justify-content: center;
+
+    & > div {
+        margin-bottom: 30px;
+        align-items: start !important;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        & label {
+            margin: 0 10px 0 0;
+            font-weight: bold;
+            color: var(--subtitle);
+        }
+    }
+}
+
+section.contact .section-data form div :where(input, textarea) {
+    all: unset;
+    background-color: rgba(63, 63, 70, .15);
+    border: 1px solid rgba(63, 63, 70, 1);
+    border-radius: 5px;
+
+    padding: .5rem 1rem;
+    width: 16rem;
+    font-size: 1.1rem;
+}
+
+.light section.contact .section-data form div :where(input, textarea) {
+    background-color: rgba(255, 255, 255, .162);
+    color: #232324;
+    caret-color: #232324;
+    box-shadow: 1px 1px 1px rgba(73, 73, 75, .105);
+}
+
+section.contact .section-data form div :where(input:hover, textarea:hover) {
+    border-color: var(--blue);
+}
+
+section.contact .section-data form div :where(input:focus, textarea:hover) {
+    border-color: var(--blue);
+    border-width: 2px;
+}
+
+section.contact .section-data form div textarea {
+    resize: vertical;
+    min-height: 9rem;
+}
+
+section.contact .section-data form button {
+    all: unset;
+    background-color: rgba(36, 36, 46, 1);
+    padding: .6rem 2.9rem;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: var(--main-trans) ;
+    margin-top: 1.5rem;
+    border: 1px solid rgb(63, 63, 70);
+    opacity: 1;
+}
+
+section.contact .section-data form button:hover {
+    scale: .95;
+    opacity: .8;
+}
+
+section.contact .section-data form button:focus {
+    outline: 3px solid rgba(36, 36, 46, 1);
+    outline-offset: 2px;
+}
+
+section.contact .section-data form button:disabled {
+    opacity: .4;
+    cursor: not-allowed;
+}
+
+
+@keyframes showandhide {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+form > p{
+    gap: 10px;
+    color: rgb(32, 154, 4);
+    font-size: 1.34rem;
+    font-weight: 700;
+    margin-top: 20px;
+    animation: showandhide 2s ease-in-out;
+}
+
+form > p div{
+    margin: 0;
+    width:50px;
+}
+
+@media (max-width: 868px) {
+    section.contact .section-data form {
+        width: 95%;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center !important;
+
+    }
+
+    
+    section.contact .section-data form :where(input, textarea) {
+        width: 100% !important;
+    }
+
+    section.contact .section-data form div {
+        justify-content: center;
+    }
+
+
+    section.contact .section-data form label {
+        margin-right: auto !important;
+    }
+}
+
+@media (max-width: 1200px){
+    .animation {
+        display: none;
+    }
+    
+}
