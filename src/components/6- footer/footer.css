@@ -33,7 +33,11 @@ footer p{
     transition: var(--main-trans);
     color: var(--subtitle);
     cursor:pointer;
-    animation: float-sm  1.5s ease-in-out 0s infinite alternate;
+}
+
+.icons a:nth-child(1){
+    animation: float-sm  2s ease-in-out 0s infinite alternate;
+
 }
 
 .icons .icon:nth-child(2){
@@ -41,7 +45,11 @@ footer p{
     transition: var(--main-trans);
     color: var(--subtitle);
     cursor:pointer;
-    animation: float-sm-2  1.5s ease-in-out 0s infinite alternate;
+}
+
+.icons a:nth-child(2){
+    animation: float-sm-2  2s ease-in-out 0s infinite alternate;
+
 }
 
 .icons .icon:hover{

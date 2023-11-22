@@ -1,0 +1,28 @@
+section#about > div{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+section#about h1{
+    color: #ab58d3;
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+
+section#about h2{
+    color: var(--title);
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+section#about p{
+    color: var(--subtitle);
+    font-size: .9rem;
+    line-height: 1.65rem;
+    margin-bottom: 32px;
+    text-wrap: balance;
+}

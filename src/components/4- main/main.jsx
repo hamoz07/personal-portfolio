@@ -41,6 +41,7 @@ const Main = () => {
 
   return (
     <>
+      <h1>Projects</h1>
       <main className="flex" id="projects">
         <section className="flex left-side">
           <button

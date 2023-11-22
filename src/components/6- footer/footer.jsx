@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <footer className='flex'>
       <ul className='flex'>
-        <li><a href="about">about</a></li>
-        <li><a href="projects">projects</a></li>
-        <li><a href="contact">contact</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#contact">contact</a></li>
       </ul>
       <div className="icons flex">
       <a href="https://www.linkedin.com/in/hamza-ramadan/" target="_blank" rel="noreferrer">

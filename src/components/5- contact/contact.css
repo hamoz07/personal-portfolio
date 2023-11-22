@@ -3,8 +3,11 @@ section.contact .headline {
 }
 
 section.contact .headline h2 {
-    color: var(--title);
+    color: #ab58d3;
     font-size: 2rem;
+    text-align: left;
+    font-family: cursive;
+    letter-spacing: 2px;
 }
 
 section.contact .headline h2 .icon-mail-envelope-closed {
