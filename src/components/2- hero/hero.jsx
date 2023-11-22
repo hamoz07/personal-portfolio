@@ -13,14 +13,9 @@ const Hero = () => {
           <span><Lottie animationData={verify}/></span>
         </div>
         <h2>
-          {/* I am a front end developer, I build Websites, and develop Web Applications. */}
           Hi, {"I'm"} Hamza
         </h2>
         <p>
-          {/* a passionate front-end developer with a strong focus on ReactJS. I
-          love turning ideas into fully functional projects and continuously
-          challenge myself to work on advanced projects.
-          {"I've"} had the privilege of working on projects ranging from css only projects to e-commerce dashboards.  */}
            I build Websites, and develop Web Applications
         </p>
         <div className="icons flex">
