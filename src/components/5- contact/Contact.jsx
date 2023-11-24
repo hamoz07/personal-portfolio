@@ -3,7 +3,8 @@ import Lottie from "lottie-react";
 import success from "../../../public/animations/Animation - 1700556299274.json";
 import email from "../../../public/animations/Animation - 1700559943396.json";
 import { useForm, ValidationError } from "@formspree/react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import "./contact.css";
 const Contact = () => {
@@ -24,7 +25,7 @@ const Contact = () => {
     <section className="contact" id="contact">
       <div className="headline">
         <h2 className="flex">
-          <div className="icon-mail-envelope-closed"></div>
+        <FontAwesomeIcon icon={faEnvelope} className="icon" />
           Email Me
         </h2>
         <p>

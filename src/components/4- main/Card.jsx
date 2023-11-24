@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faLink } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLink } from "@fortawesome/free-solid-svg-icons";
 
 const Card = ({ name, websiteLink, vercel, repo, img, desc , tech }) => {
   return (
@@ -40,7 +40,7 @@ const Card = ({ name, websiteLink, vercel, repo, img, desc , tech }) => {
               </>
             )}
             <a href={`${repo}`} target="_blank" rel="noreferrer">
-              <span className="icon icon-github"></span>
+            <FontAwesomeIcon icon={faGithub} className="icon" />
             </a>
           </div>
           <div>

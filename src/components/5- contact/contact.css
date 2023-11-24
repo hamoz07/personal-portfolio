@@ -10,7 +10,7 @@ section.contact .headline h2 {
     letter-spacing: 2px;
 }
 
-section.contact .headline h2 .icon-mail-envelope-closed {
+section.contact .headline h2 .icon{
     font-size: 1.9rem;
     margin-right: .4rem;
     color: var(--subtitle);

@@ -4,6 +4,10 @@ import laptop from '../../../public/animations/Animation - 1700558036803.json'
 import Lottie from "lottie-react";
 import personalImg from './1665068830591.jpeg'
 import verify from '../../../public/animations/Animation - 1700595310768.json'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin , faGithub } from '@fortawesome/free-brands-svg-icons';
+
+
 const Hero = () => {
   return (
     <section className="flex">
@@ -20,10 +24,12 @@ const Hero = () => {
         </p>
         <div className="icons flex">
           <a href="https://www.linkedin.com/in/hamza-ramadan/" target="_blank" rel="noreferrer">
-            <div className="icon icon-linkedin2"></div>
+            {/* <div className="icon icon-linkedin2"></div> */}
+            <FontAwesomeIcon icon={faLinkedin} className="icon" />
           </a>
           <a href="https://github.com/hamoz07/">
-            <div className="icon icon-github"></div>
+            {/* <div className="icon icon-github"></div> */}
+            <FontAwesomeIcon icon={faGithub} className="icon" />
           </a>
         </div>
       </div>
