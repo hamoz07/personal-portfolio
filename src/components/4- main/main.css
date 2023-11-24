@@ -136,12 +136,13 @@ main
   cursor: pointer;
 }
 
+main section.right-side .card > div.project-info div.discover-project .flex{
+  gap: 15px;
+}
+
 main section.right-side .card > div.project-info div.discover-project a {
   font-size: 0.9rem;
   color: var(--blue);
-  
-  align-items: center;
-  gap: 5px;
 }
 
 .card span{
