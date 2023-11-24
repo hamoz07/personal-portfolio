@@ -9,17 +9,17 @@ const Modal = ({ setToggle, theme }) => {
     >
       <ul className={`modal`}>
         <li>
-          <a href="about" onClick={() => setToggle(false)}>
+          <a href="#about" onClick={() => setToggle(false)}>
             About
           </a>
         </li>
         <li>
-          <a href="projects" onClick={() => setToggle(false)}>
+          <a href="#projects" onClick={() => setToggle(false)}>
             Projects
           </a>
         </li>
         <li>
-          <a href="contact" onClick={() => setToggle(false)}>
+          <a href="#contact" onClick={() => setToggle(false)}>
             Contact
           </a>
         </li>
