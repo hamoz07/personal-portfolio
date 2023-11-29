@@ -104,7 +104,7 @@ export const projects = [
     has_pages: false,
   },
   {
-    name: "emloyee-system-tracking-status",
+    name: "Customer Relation Management (CRM)",
     gitrepo: "https://github.com/hamoz07/emloyee-system-tracking-status.git",
     technologies: "react",
     has_pages: false,
