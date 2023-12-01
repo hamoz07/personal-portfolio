@@ -40,13 +40,7 @@ export const projects = [
     has_pages: true,
     path:"../photos/calc.png"
   },
-  {
-    name: "canvas_project",
-    gitrepo: "https://github.com/hamoz07/canvas_project.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/canvas.png"
-  },
+
   {
     name: "car-rental",
     gitrepo: "https://github.com/hamoz07/car-rental.git",
@@ -89,25 +83,21 @@ export const projects = [
     has_pages: true,
     path:"../photos/crud.png"
   },
-  {
-    name: "Drum-Kit",
-    gitrepo: "https://github.com/hamoz07/Drum-Kit.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/clap.png"
-  },
+
   {
     name: "E-COMMERCE-DASHBOARD-MANAGEMENT-SYSTEM",
     gitrepo:
       "https://github.com/hamoz07/E-COMMERCE-DASHBOARD-MANAGEMENT-SYSTEM.git",
     technologies: "react",
     has_pages: false,
+    path:"../photos/E-COMMERCE-DASHBOARD-MANAGEMENT-SYSTEM.png"
   },
   {
     name: "Customer Relation Management (CRM)",
     gitrepo: "https://github.com/hamoz07/emloyee-system-tracking-status.git",
     technologies: "react",
     has_pages: false,
+    path:"../photos/Customer Relation Management (CRM).png"
   },
   {
     gitrepo: "https://github.com/hamoz07/firstTemplate.git",
@@ -129,14 +119,6 @@ export const projects = [
     technologies: "css",
     has_pages: true,
     path:"../photos/fourcards.png"
-  },
-
-  {
-    name: "gradient-generator",
-    gitrepo: "https://github.com/hamoz07/gradient-generator.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/gradient.png"
   },
 
   {
@@ -195,13 +177,7 @@ export const projects = [
     has_pages: true,
     path:"../photos/pepsilanding.png"
   },
-  {
-    name: "Prayer-timings",
-    gitrepo: "https://github.com/hamoz07/Prayer-timings.git",
-    technologies: "js",
-    has_pages: false,
-    path:"../photos/js-prayers.png"
-  },
+
   {
     name: "product_preview-card",
     gitrepo: "https://github.com/hamoz07/product_preview-card.git",
@@ -209,13 +185,7 @@ export const projects = [
     has_pages: true,
     path:"../photos/perfume.png"
   },
-  {
-    name: "progress-circular-bar",
-    gitrepo: "https://github.com/hamoz07/progress-circular-bar.git",
-    technologies: "css",
-    has_pages: true,
-    path:"../photos/progressbat.png"
-  },
+
   {
     name: "qr-code_challenge",
     gitrepo: "https://github.com/hamoz07/qr-code_challenge.git",
@@ -223,13 +193,7 @@ export const projects = [
     has_pages: true,
     path:"../photos/qrcode.png"
   },
-  {
-    name: "Random-color",
-    gitrepo: "https://github.com/hamoz07/Random-color.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/randomcolor.png"
-  },
+
   {
     name: "random-meal-generator",
     gitrepo: "https://github.com/hamoz07/random-meal-generator.git",
@@ -269,27 +233,7 @@ export const projects = [
     website: "https://review-card-seven.vercel.app/",
     path:"../photos/card-review.png"
   },
-  {
-    name: "scroll-prog",
-    gitrepo: "https://github.com/hamoz07/scroll-prog.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/scroll-prog.png"
-  },
-  {
-    name: "scroll-to-top",
-    gitrepo: "https://github.com/hamoz07/scroll-to-top.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/scroll-to-top.png"
-  },
-  {
-    name: "serial_num-generator",
-    gitrepo: "https://github.com/hamoz07/serial_num-generator.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/random-serial.png"
-  },
+
   {
     name: "show-users-posts-challenge",
     gitrepo: "https://github.com/hamoz07/show-users-posts-challenge.git",
@@ -297,20 +241,8 @@ export const projects = [
     has_pages: true,
     path:"../photos/show-posts-challenge.png"
   },
-  {
-    name: "simple-counter",
-    gitrepo: "https://github.com/hamoz07/simple-counter.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/counter.png"
-  },
-  {
-    name: "simple-navbar",
-    gitrepo: "https://github.com/hamoz07/simple-navbar.git",
-    technologies: "css",
-    has_pages: true,
-    path:"../photos/simple-navbar.png"
-  },
+
+
   {
     name: "simple-password-validation",
     gitrepo: "https://github.com/hamoz07/simple-password-validation.git",
@@ -327,13 +259,7 @@ export const projects = [
     website: "https://sorting-ecommerce-products-web-application.vercel.app/",
     path:"../photos/sorting-ecommerce.png"
   },
-  {
-    name: "sum-generator",
-    gitrepo: "https://github.com/hamoz07/sum-generator.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/sum-generator.png"
-  },
+
   {
     name: "tech-ordering-web-app",
     gitrepo: "https://github.com/hamoz07/tech-ordering-web-app.git",
@@ -363,13 +289,7 @@ export const projects = [
     has_pages: true,
     path:"../photos/template-4.png"
   },
-  {
-    name: "To-do-list-manager",
-    gitrepo: "https://github.com/hamoz07/To-do-list-manager.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/jstodo.png"
-  },
+
   {
     name: "translator",
     gitrepo: "https://github.com/hamoz07/translator.git",
@@ -398,13 +318,7 @@ export const projects = [
     has_pages: true,
     path:"../photos/typing-speed-game.png"
   },
-  {
-    name: "work-filter",
-    gitrepo: "https://github.com/hamoz07/work-filter.git",
-    technologies: "js",
-    has_pages: true,
-    path:"../photos/work-filter.png"
-  },
+
 ];
 
 // "sum generator"

@@ -7,11 +7,15 @@ const Modal = ({ setToggle, theme }) => {
     
     style={{background:theme === "dark" ? "rgba(40, 40, 48, .91)" : "rgba (0,0,0,.91)"}}
     >
+
       <ul className={`modal`}>
         <li>
           <a href="#about" onClick={() => setToggle(false)}>
             About
           </a>
+        </li>
+        <li>
+            <a href="#skills" onClick={() => setToggle(false)}>skills</a>
         </li>
         <li>
           <a href="#projects" onClick={() => setToggle(false)}>

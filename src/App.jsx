@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import Header from "./components/1- header/header";
 import Hero from "./components/2- hero/hero";
-import Main from "./components/4- main/main";
-import Contact from "./components/5- contact/Contact";
-import Footer from "./components/6- footer/footer";
+import About from "./components/3- About/about";
+import Skills from "./components/4- skills/Skills";
+import Main from "./components/5- main/main";
+import Contact from "./components/6- contact/Contact";
+import Footer from "./components/7- footer/footer";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import About from "./components/3- About/about";
 
 const App = () => {
   const [show,setShow] = useState(false)
@@ -42,6 +43,8 @@ const App = () => {
         <Hero />
         <div className="separator"></div>
         <About />
+        <div className="separator"></div>
+        <Skills />
         <div className="separator"></div>
         <Main  />
         <div className="separator"></div>

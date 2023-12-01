@@ -48,7 +48,7 @@ main section.right-side {
   row-gap: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  width: calc(76% - 6.8rem);
+  width: calc(71% - 6.8rem);
 }
 
 .overcontainer{
@@ -117,6 +117,7 @@ main section.right-side .card > div.project-info p {
   font-size: 0.8rem;
   margin-top: 0.7rem;
   margin-bottom: 1.1rem;
+  color:var(--subtitle);
 }
 
 main section.right-side .card > div.project-info div.discover-project {
