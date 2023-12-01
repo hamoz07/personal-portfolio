@@ -39,4 +39,5 @@
     text-transform: none;
     color:whitesmoke;
     text-transform:capitalize;
+    color: var(--title);
 }
