@@ -18,6 +18,9 @@ const Main = () => {
   const filteredreact = projects.filter((pro) => {
     return pro.technologies === "react";
   });
+  const filteredtypescript = projects.filter((pro) => {
+    return pro.technologies === "react+typescript";
+  });
 
   useEffect(() => {
     const res = projects.filter((pro) => {
@@ -79,6 +82,15 @@ const Main = () => {
             className={`${active === "react" ? "active" : null}`}
           >
             react & Mui ({filteredreact.length})
+          </button>
+          <button
+            onClick={() => {
+              setShowAll(false);
+              setActive("react+typescript");
+            }}
+            className={`${active === "react+typescript" ? "active" : null}`}
+          >
+          React + Typescript ({filteredtypescript.length})
           </button>
         </section>
         <section className={`right-side ${showAll ? "overcontainer" : ""}`}>

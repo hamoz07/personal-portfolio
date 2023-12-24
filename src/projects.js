@@ -195,11 +195,11 @@ export const projects = [
   },
 
   {
-    name: "random-meal-generator",
-    gitrepo: "https://github.com/hamoz07/random-meal-generator.git",
+    name: "JS-E-COMMERCE",
+    gitrepo: "https://github.com/hamoz07/JS-E-COMMERCE.git",
     technologies: "js",
     has_pages: true,
-    path:"../photos/randommealgeneratorjs.png"
+    path:"../photos/Screenshot 2023-12-24 191956.png"
   },
   {
     name: "react-advanced-project",
@@ -317,6 +317,14 @@ export const projects = [
     technologies: "js",
     has_pages: true,
     path:"../photos/typing-speed-game.png"
+  },
+  {
+    name: "Notes-Web-Applications",
+    gitrepo: "https://github.com/hamoz07/Notes-Web-Applications.git",
+    technologies: "react+typescript",
+    has_pages: "vercel",
+    website:"https://simple-notes-web-applications.vercel.app",
+    path:"../photos/Screenshot 2023-12-24 195059.png"
   },
 
 ];

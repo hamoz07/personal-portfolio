@@ -24,7 +24,7 @@ main section.left-side {
 main section.left-side button {
   background-color: rgba(36, 37, 46, 1);
   opacity: 0.5;
-  width: 11rem;
+  width: 13rem;
   padding: 0.75rem 0;
   text-align: center;
   text-transform: capitalize;
@@ -35,6 +35,7 @@ main section.left-side button {
   border-radius: 5px;
   cursor: pointer;
   transition: var(--main-trans);
+  text-wrap: nowrap;
 }
 
 main section.left-side button:hover,
