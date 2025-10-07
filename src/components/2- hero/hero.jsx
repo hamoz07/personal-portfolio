@@ -2,7 +2,7 @@ import React from "react";
 import "./hero.css";
 import laptop from '../../../public/animations/Animation - 1700558036803.json'
 import Lottie from "lottie-react";
-import personalImg from './1665068830591.jpeg'
+import personalImg from './112629005.jpeg'
 import verify from '../../../public/animations/Animation - 1700595310768.json'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin , faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -39,3 +39,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
